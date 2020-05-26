@@ -13,7 +13,7 @@ function recieveMessage(message) {
     var name = message.name;
     var content = message.content;
 
-	var nameAndText = message.name + ": " + message.content;
+	var nameAndText = message.name + ": " + message.content+"<br><br>";
 
 	document.getElementById("display").innerHTML += nameAndText;
 }
