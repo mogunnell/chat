@@ -1,1 +1,4 @@
-
+.monospace {
+  font-family: "Lucida Console", Courier, monospace;
+}
+body {background-color: red;}
